@@ -1,4 +1,4 @@
-tms_backend:
+app-html:
   image:
     pullPolicy: IfNotPresent
     repository: https://github.com/pkccp/argocd-demo.git
