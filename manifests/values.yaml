@@ -1,0 +1,12 @@
+tms_backend:
+  image:
+    pullPolicy: IfNotPresent
+    repository: https://github.com/pkccp/argocd-demo.git
+    tag: 2021.7.0-production.2492-88b10fc
+  resources:
+    limits:
+      cpu: '2'
+      memory: 4Gi
+    requests:
+      cpu: 200m
+      memory: 4Gi
