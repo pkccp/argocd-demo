@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app-html-container
-          image: app1:latest
+          image: registry.gitlab.com/argocd7062629/app-html
           ports:
             - containerPort: 80
