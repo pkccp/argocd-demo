@@ -1,12 +1,6 @@
 argocd:
-  image:
-    pullPolicy: IfNotPresent
-    repository: registry.gitlab.com/argocd7062629/app-html
-    tag: app-html
-  resources:
-    limits:
-      cpu: '2'
-      memory: 4Gi
-    requests:
-      cpu: 200m
-      memory: 4Gi
+  server:
+    resources:
+      limits:
+      cpu: '1'
+      memory: 1Gi
