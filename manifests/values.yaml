@@ -1,0 +1,7 @@
+argocdV:
+  image:
+    pullPolicy: IfNotPresent
+    repository: registry.gitlab.com/argocd7062629/app-html
+    limits:
+    cpu: '1'
+    memory: 1Gi
